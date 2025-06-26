@@ -1,6 +1,6 @@
 name: Hello     # workflow name
 
-on: push        # event
+on: push        # eventgr 
 
 jobs:           # jobs definition
   hello:        # job ID

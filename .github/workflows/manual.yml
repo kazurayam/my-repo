@@ -3,10 +3,10 @@ name: Manual
 on:
   workflow_dispatch:
     inputs:
-      greeing:
+      greeting:
         type: string
         default: Hello
-        requred: true
+        required: true
         description: A cheerful word
 
 jobs:

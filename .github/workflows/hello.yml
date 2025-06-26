@@ -1,0 +1,10 @@
+name: Hello     # workflow name
+
+on: push        # event
+
+jobs:           # jobs definition
+  hello:        # job ID
+    runs-on: ubuntu-latest  # runner
+    steps:
+      - run: echo "Hello, world"    # run a shell script
+      - uses: actions/checkout@v4   # activate action
